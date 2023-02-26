@@ -10,7 +10,7 @@ module.exports = {
     static: "./dist",
   },
   output: {
-    filename: "main.js",
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
 };
