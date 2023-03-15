@@ -30,9 +30,11 @@ const pageLoad = () => {
   const contact = document.createElement("div");
   contact.classList.add("nav-option");
   contact.textContent = "Contact";
+
   nav.appendChild(home);
   nav.appendChild(menu);
   nav.appendChild(contact);
+  header.appendChild(nav);
 
   // create and add content to main
   const mainInner = document.createElement("div");
