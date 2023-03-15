@@ -1,3 +1,4 @@
 import "./style.css";
+import pageLoad from "./page-load";
 
-console.log("Test case");
+pageLoad();
