@@ -90,8 +90,8 @@ body {
   align-items: center;
 }
 
-.show-main-bg {
-  background-color: rgba(255, 255, 255, 0.7);
+.show-bg {
+  background-color: rgba(255, 255, 255, 0.9);
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
 }
@@ -101,6 +101,31 @@ body {
 
   font-family: "Raleway";
   font-weight: 400;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-info-header {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contact-info-container p {
+  font-size: 18px;
 }
 
 .footer {
