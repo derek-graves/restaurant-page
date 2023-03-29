@@ -13,7 +13,7 @@ const contact = () => {
     Email: "orders@calledimsum.com",
   };
 
-  for (const key of contactInfo.keys()) {
+  for (const key of Object.keys(contactInfo)) {
     const contactElement = contactElementCreator(key, contactInfo[key]);
     mainInner.append(contactElement);
   }
@@ -35,3 +35,5 @@ const contactElementCreator = (heading, content) => {
 
   return newElement;
 };
+
+export default contact;
