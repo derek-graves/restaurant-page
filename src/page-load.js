@@ -36,11 +36,6 @@ const pageLoad = () => {
   nav.appendChild(contact);
   header.appendChild(nav);
 
-  // create and add content to main
-  const mainInner = document.createElement("div");
-  mainInner.classList.add("main-inner");
-  main.appendChild(mainInner);
-
   // create and add content to footer
   const firstParagraph = document.createElement("div");
   const secondParagraph = document.createElement("div");
