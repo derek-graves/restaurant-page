@@ -86,27 +86,26 @@ body {
   align-self: center;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 36px;
+
+  font-family: "Raleway";
+  font-weight: 400;
+
+  padding: 24px 0;
 }
 
 .show-bg {
   background-color: rgba(255, 255, 255, 0.9);
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
+
+  overflow: scroll;
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
+.center-content {
   justify-content: center;
-  align-items: center;
-  gap: 36px;
-
-  max-width: 500px;
-
-  font-family: "Raleway";
-  font-weight: 400;
 }
 
 .menu-container {
@@ -115,6 +114,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4px;
+
+  max-width: 500px;
 }
 
 .menu-header {

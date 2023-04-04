@@ -42,8 +42,16 @@ const setBackground = () => {
   }
 };
 
+const centerContent = () => {
+  const main = document.querySelector(".main");
+  if (!main.classList.contains("center-content")) {
+    main.classList.add("center-content");
+  }
+};
+
 const loadContact = () => {
   setBackground();
+  centerContent();
 
   const main = document.querySelector(".main");
   main.textContent = "";
