@@ -60,7 +60,7 @@ const createMenu = () => {
 const setBackground = () => {
   // maintain or adjust display of main background
   const main = document.querySelector(".main");
-  if (!main.classList.contains("show-main-bg")) {
+  if (!main.classList.contains("show-bg")) {
     main.classList.add("show-bg");
   }
 };

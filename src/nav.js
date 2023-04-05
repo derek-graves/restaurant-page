@@ -2,7 +2,8 @@ const underlineNavUI = (navIndex) => {
   const currentNavElement = document
     .querySelector(".nav")
     .children.item(navIndex);
-  const otherNavIndices = [0, 1, 2].splice(navIndex, navIndex);
+  const otherNavIndices = [0, 1, 2];
+  otherNavIndices.splice(navIndex, navIndex);
   const otherNavElement1 = document
     .querySelector(".nav")
     .children.item(otherNavIndices[0]);
