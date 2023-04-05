@@ -157,7 +157,15 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   align-self: end;
+
+  padding: 4px 6px;
+}
+
+.footer a {
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
 }
