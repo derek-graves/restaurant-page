@@ -1,3 +1,5 @@
+import underlineNavUI from "./nav";
+
 const menuElementCreator = (heading, content) => {
   const newElement = document.createElement("div");
   newElement.classList.add("menu-container");
@@ -73,6 +75,7 @@ const decenterContent = () => {
 const loadMenu = () => {
   setBackground();
   decenterContent();
+  underlineNavUI(1);
 
   const main = document.querySelector(".main");
   main.textContent = "";

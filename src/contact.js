@@ -1,3 +1,5 @@
+import underlineNavUI from "./nav";
+
 const contactElementCreator = (heading, content) => {
   const newElement = document.createElement("div");
   newElement.classList.add("contact-info-container");
@@ -52,6 +54,7 @@ const centerContent = () => {
 const loadContact = () => {
   setBackground();
   centerContent();
+  underlineNavUI(2);
 
   const main = document.querySelector(".main");
   main.textContent = "";
